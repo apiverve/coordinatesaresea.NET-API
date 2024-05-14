@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.CoordinatesAreSea</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/coordinatesaresea</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Coordinates are Sea is a simple tool for checking if coordinates are in the sea. It returns if the coordinates are in the sea or not.</Description>
+    <RepositoryUrl>https://github.com/apiverve/coordinatesaresea-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>coordinates are sea; coordinates are sea api; coordinates are sea tool; coordinates are sea software; coordinates are sea service; coordinates are sea library; coordinates are sea sdk; coordinates are sea code; coordinates are sea script; coordinates are sea program; coordinates are sea application; coordinates are sea app; coordinates are sea utility; coordinates are sea helper; coordinates are sea helper tool; coordinates are sea helper software; coordinates are sea helper service; coordinates are sea helper library; coordinates are sea helper sdk; coordinates are sea helper code; coordinates are sea helper script; coordinates are sea helper program; coordinates are sea helper application; coordinates are sea helper app; coordinates are sea helper utility; coordinates are sea helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
