@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new coordinatesareseaQueryOptions {
+var queryOptions = new CoordinatesAreSeaQueryOptions {
   lat = 37.7749,
   lon = -122.4194
 };
@@ -98,7 +98,8 @@ if(response.error != null) {
     "latitude": 37.7749,
     "longitude": -122.4194,
     "isSea": false
-  }
+  },
+  "code": 200
 }
 ```
 
