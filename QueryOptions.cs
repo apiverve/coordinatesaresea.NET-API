@@ -5,7 +5,7 @@ using System.Text;
 namespace APIVerve
 {
     public class CoordinatesAreSeaQueryOptions {
-public number lat { get; set; }
-public number lon { get; set; }
+public double lat { get; set; }
+public double lon { get; set; }
 }
 }
