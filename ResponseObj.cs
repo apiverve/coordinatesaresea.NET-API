@@ -4,33 +4,34 @@ using Newtonsoft.Json;
 
 namespace APIVerve
 {
-public class data
-{
-    [JsonProperty("latitude")]
-    public double latitude { get; set; }
+    /// <summary>
+    /// Data data
+    /// </summary>
+    public class Data
+    {
+        [JsonProperty("latitude")]
+        public double Latitude { get; set; }
 
-    [JsonProperty("longitude")]
-    public double longitude { get; set; }
+        [JsonProperty("longitude")]
+        public double Longitude { get; set; }
 
-    [JsonProperty("isSea")]
-    public bool isSea { get; set; }
+        [JsonProperty("isSea")]
+        public bool IsSea { get; set; }
 
-}
+    }
+    /// <summary>
+    /// API Response object
+    /// </summary>
+    public class ResponseObj
+    {
+        [JsonProperty("status")]
+        public string Status { get; set; }
 
-public class ResponseObj
-{
-    [JsonProperty("status")]
-    public string status { get; set; }
+        [JsonProperty("error")]
+        public object Error { get; set; }
 
-    [JsonProperty("error")]
-    public object error { get; set; }
+        [JsonProperty("data")]
+        public Data Data { get; set; }
 
-    [JsonProperty("data")]
-    public data data { get; set; }
-
-    [JsonProperty("code")]
-    public int code { get; set; }
-
-}
-
+    }
 }
